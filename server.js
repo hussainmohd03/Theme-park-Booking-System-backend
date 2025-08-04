@@ -1,9 +1,7 @@
 // imports
 const express = require('express')
-require('dotenv').config()
-const session = require('express-session')
+require('dotenv').config({ path: '../Theme-park-Booking-System-frontend/.env' })
 const path = require('path')
-
 
 // Initialize app
 const app = express()
@@ -12,35 +10,18 @@ const app = express()
 const mongoose = require('./config/db')
 
 // set Port Configuration
-const port = process.env.PORT ? process.env.PORT : 3000
+const port = process.env.BACKEND_PORT ? process.env.BACKEND_PORT : 3000
 
 // Require MiddleWares
-const methodOverride = require('method-override')
 const morgan = require('morgan')
-
-
-// Require passUserToView & isSignedIn middlewares
-
+const cors = require('cors')
 
 // use MiddleWares
 app.use(express.urlencoded({ extended: true }))
-app.use(methodOverride('_method'))
 app.use(morgan('dev'))
+app.use(express.json())
+app.use(cors())
 app.use(express.static(path.join(__dirname, 'public')))
-
-
-
-// Session Configurations
-app.use(
-  session({
-    secret: process.env.SESSION_SECRET,
-    resave: false,
-    saveUninitialized: true
-  })
-)
-
-//passUserToView middleware
-
 
 // Root Route
 app.get('/', (req, res) => {
@@ -49,12 +30,9 @@ app.get('/', (req, res) => {
 
 // Require Routers
 
-
 // use Routers
-
 
 // Listener
 app.listen(port, () => {
   console.log(`Server is running on http://localhost:${port}`)
 })
-
