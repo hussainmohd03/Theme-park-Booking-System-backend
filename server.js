@@ -29,8 +29,10 @@ app.get('/', (req, res) => {
 })
 
 // Require Routers
+const rideRouter = require('./routes/RideRouter')
 
 // use Routers
+app.use('/rides', rideRouter)
 
 // Listener
 app.listen(port, () => {
