@@ -1,6 +1,6 @@
 // imports
 const express = require('express')
-require('dotenv').config({ path: '../Theme-park-Booking-System-frontend/.env' })
+require('dotenv').config()
 const path = require('path')
 
 // Initialize app
