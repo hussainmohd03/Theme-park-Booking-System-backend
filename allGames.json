@@ -1,0 +1,92 @@
+[
+  {
+    "name": "Time Machine Ride",
+    "description": "Travel through past and future in this VR rollercoaster.",
+    "imageUrl": "https://tse4.mm.bing.net/th/id/OIP.OTZzrkAobMjfvmCDlEMw1gHaE7?rs=1&pid=ImgDetMain&o=7&rm=3",
+    "ageLimit": 18
+  },
+  {
+    "name": "Dragon's Flight",
+    "description": "Suspended coaster soaring over imaginary castles.",
+    "imageUrl": "https://tse1.mm.bing.net/th/id/OIP.7covqToyngRjiwLoHGewjgHaE8?rs=1&pid=ImgDetMain&o=7&rm=3",
+    "ageLimit": 12
+  },
+  {
+    "name": "Neon Loop",
+    "description": "High‑speed light coaster with underground neon tunnels.",
+    "imageUrl": "https://tse3.mm.bing.net/th/id/OIP.Bj9_6YukbX_eQG9x25jQ8AHaFj?rs=1&pid=ImgDetMain&o=7&rm=3",
+    "ageLimit": 16
+  },
+  {
+    "name": "Haunted House",
+    "description": "Dark ride through a haunted tower with special effects.",
+    "imageUrl": "https://tse4.mm.bing.net/th/id/OIP.JmBP4QK1n4qKhcldhDasbAHaEG?rs=1&pid=ImgDetMain&o=7&rm=3",
+    "ageLimit": 13
+  },
+  {
+    "name": "Jurassic Jungle Coaster",
+    "description": "Dino-themed coaster through wild jungle terrain.",
+    "imageUrl": "https://th.bing.com/th/id/R.df3154b2e0ca9510e1abb0ffecb62b8b?rik=32YtpFxI%2bDXhmw&riu=http%3a%2f%2fis1.mzstatic.com%2fimage%2fthumb%2fPurple30%2fv4%2f34%2fb8%2fb9%2f34b8b940-d421-6815-bcdf-6c5cb75b492a%2fsource%2f512x512bb.jpg&ehk=p9epkwjwU7zIqmhaj0c22J68N0u%2bdqAlQSDWU3vc26w%3d&risl=&pid=ImgRaw&r=0",
+    "ageLimit": 16
+  },
+  {
+    "name": "Cosmic Spin",
+    "description": "Spinning ride with glowing effects under stars.",
+    "imageUrl": "https://tse4.mm.bing.net/th/id/OIP.FTn8emc52-dc4CI1hnUqmwHaE8?rs=1&pid=ImgDetMain&o=7&rm=3",
+    "ageLimit": 14
+  },
+  {
+    "name": "Monkey Maze",
+    "description": "Walk-through haunted maze with fog and surprises.",
+    "imageUrl": "https://tse3.mm.bing.net/th/id/OIP.rfdBRPFcsbernERQTsn8FgHaFj?rs=1&pid=ImgDetMain&o=7&rm=3",
+    "ageLimit": 13
+  },
+  {
+    "name": "Retro Arcade Dash",
+    "description": "Race around an old-school arcade-themed track.",
+    "imageUrl": "https://tse4.mm.bing.net/th/id/OIP._kMikOjku9CQDZsBYHjD8QHaJ4?rs=1&pid=ImgDetMain&o=7&rm=3",
+    "ageLimit": 10
+  },
+  {
+    "name": "Steampunk Spinner",
+    "description": "Gear-driven spinners with Victorian sci-fi flair.",
+    "imageUrl": "https://tse2.mm.bing.net/th/id/OIP.DIDeI8j1cO2bvNiLcecrzQHaHa?rs=1&pid=ImgDetMain&o=7&rm=3",
+    "ageLimit": 11
+  },
+  {
+    "name": "Pirate Splash Battle",
+    "description": "Water cannon battle aboard pirate-themed boats.",
+    "imageUrl": "https://tse4.mm.bing.net/th/id/OIP.RdHNvSFOK6-ZIc1kVoyvQQHaFj?rs=1&pid=ImgDetMain&o=7&rm=3",
+    "ageLimit": 8
+  },
+  {
+    "name": "Viking Storm",
+    "description": "Swinging boat ride through thunder and lightning effects.",
+    "imageUrl": "https://c8.alamy.com/comp/KTERK7/viking-ship-ride-at-a-carnival-KTERK7.jpg",
+    "ageLimit": 9
+  },
+  {
+    "name": "Galactic Arena",
+    "description": "Laser tag in a futuristic sci‑fi arena.",
+    "imageUrl": "https://tabletopbellhop.com/wp-content/uploads/2018/09/Gaia_Project_Much_Later_In_The_Game-768x576.jpg",
+    "ageLimit": 10
+  },
+  {
+    "name": "Pixel Drop Tower",
+    "description": "Vertical drop ride with retro 8‑bit graphics theme.",
+    "imageUrl": "https://tse2.mm.bing.net/th/id/OIP.eNIIlUpJf_DrAN3OR0AT-gHaHa?rs=1&pid=ImgDetMain&o=7&rm=3",
+    "ageLimit": 12
+  },
+  {
+    "name": "Magic Fairy Hourses Garden",
+    "description": "Gentle fantasy ride through colorful gardens.",
+    "imageUrl": "https://th.bing.com/th/id/R.81f6df1cd02417618d70b09cbc55899c?rik=6OvfAyAAvP3b3w&pid=ImgRaw&r=0",
+    "ageLimit": 3
+  },
+  {
+    "name": "Alien Abduction Spin",
+    "description": "Spinning gravity ride inside a UFO‑themed pod.",
+    "imageUrl": "https://tse1.mm.bing.net/th/id/OIP.0Xu3boq93fVlgEenQiyJvgHaEK?rs=1&pid=ImgDetMain&o=7&rm=3",
+    "ageLimit": 12
+  }
+]

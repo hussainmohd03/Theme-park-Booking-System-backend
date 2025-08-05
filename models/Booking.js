@@ -3,11 +3,14 @@ const { Schema } = require('mongoose')
 const bookingSchema = new Schema(
   {
     name: { type: String, required: true },
-    age: { type: Number, required: true },
+    email: { type: String, required: true },
     phone: { type: Number, required: true },
-    date: { type: Date, required: true },
-    startTime: { type: String, required: true },
-    endTime: { type: String, required: true },
+    date: { type: Date },
+    ticketType: {
+      type: String,
+      enum: ['Single-Day-Pass', 'Family-Pass', 'VIP-Galactic'],
+      required: true
+    },
     notes: {
       type: String
     }
