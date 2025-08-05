@@ -30,9 +30,13 @@ app.get('/', (req, res) => {
 
 // Require Routers
 const bookingRouter = require('./routes/BookingRouter')
+const rideRouter = require('./routes/RideRouter')
+
 
 // use Routers
 app.use('/bookings', bookingRouter)
+app.use('/rides', rideRouter)
+
 
 // Listener
 app.listen(port, () => {
