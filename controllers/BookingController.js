@@ -9,8 +9,12 @@ exports.booking_create_post = async (req, res) => {
   }
 }
 exports.booking_index_get = async (req, res) => {
-  const bookings = await Booking.find()
-  res.status(200).send(bookings)
+  try {
+    const bookings = await Booking.find()
+    res.status(200).send(bookings)
+  } catch (error) {
+    throw error
+  }
 }
 exports.booking_show_get = async (req, res) => {
   try {

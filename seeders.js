@@ -15,7 +15,7 @@ mongoose
 const seedDatabase = async () => {
   try {
     await Ride.deleteMany({})
-    console.log(' rides deleted')
+    console.log('rides deleted')
     await Ride.insertMany(data)
     console.log(' New rides added successfully!')
   } catch (err) {
@@ -24,5 +24,3 @@ const seedDatabase = async () => {
     mongoose.connection.close()
   }
 }
-
-seedDatabase()

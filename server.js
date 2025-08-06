@@ -34,7 +34,7 @@ const rideRouter = require('./routes/RideRouter')
 
 
 // use Routers
-app.use('/bookings', bookingRouter)
+app.use('/booking', bookingRouter)
 app.use('/rides', rideRouter)
 
 
