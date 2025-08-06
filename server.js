@@ -24,9 +24,6 @@ app.use(cors())
 app.use(express.static(path.join(__dirname, 'public')))
 
 // Root Route
-app.get('/', (req, res) => {
-  res.send('Your app is connected . . . ')
-})
 
 // Require Routers
 const bookingRouter = require('./routes/BookingRouter')
@@ -37,6 +34,3 @@ app.use('/booking', bookingRouter)
 app.use('/rides', rideRouter)
 
 // Listener
-app.listen(port, () => {
-  console.log(`Server is running on http://localhost:${port}`)
-})
