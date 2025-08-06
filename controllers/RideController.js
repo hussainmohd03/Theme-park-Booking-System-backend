@@ -9,6 +9,16 @@ const GetRide = async (req, res) => {
   }
 }
 
+const GetOneRide = async (req, res) => {
+  try {
+    const oneRide = await Ride.findById(req.params.id)
+    res.status(200).send(oneRide)
+  } catch (error) {
+    throw error
+  }
+}
+
 module.exports = {
-  GetRide
+  GetRide,
+  GetOneRide
 }
