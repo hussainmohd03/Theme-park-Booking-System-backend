@@ -10,7 +10,7 @@ const app = express()
 const mongoose = require('./config/db')
 
 // set Port Configuration
-const port = process.env.BACKEND_PORT ? process.env.BACKEND_PORT : 3000
+const port = process.env.PORT ? process.env.PORT : 10000
 
 // Require MiddleWares
 const morgan = require('morgan')
@@ -34,3 +34,6 @@ app.use('/booking', bookingRouter)
 app.use('/rides', rideRouter)
 
 // Listener
+app.listen(port, () => {
+  console.log(`Server is running on http://localhost:${port}`)
+})
